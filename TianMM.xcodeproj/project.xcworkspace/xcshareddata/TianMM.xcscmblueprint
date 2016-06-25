@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5d2f20a9-6f85-435a-9b64-d1a56891d47e++7323" : {
+
+    },
+    "5d2f20a9-6f85-435a-9b64-d1a56891d47e++4247" : {
+
+    },
+    "5d2f20a9-6f85-435a-9b64-d1a56891d47e" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5d2f20a9-6f85-435a-9b64-d1a56891d47e++7323" : 0,
+    "5d2f20a9-6f85-435a-9b64-d1a56891d47e++4247" : 0,
+    "5d2f20a9-6f85-435a-9b64-d1a56891d47e" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7645EBBE-92FC-4736-8F63-3C887C09842D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5d2f20a9-6f85-435a-9b64-d1a56891d47e++7323" : "",
+    "5d2f20a9-6f85-435a-9b64-d1a56891d47e++4247" : "TianMM\/",
+    "5d2f20a9-6f85-435a-9b64-d1a56891d47e" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TianMM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TianMM.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/dev.365tmm.net",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5d2f20a9-6f85-435a-9b64-d1a56891d47e"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/dev.365tmm.net",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5d2f20a9-6f85-435a-9b64-d1a56891d47e++4247"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/dev.365tmm.net",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5d2f20a9-6f85-435a-9b64-d1a56891d47e++7323"
+    }
+  ]
+}

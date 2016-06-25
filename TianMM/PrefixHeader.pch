@@ -1,0 +1,76 @@
+//
+//  PrefixHeader.pch
+//  TianMM
+//
+//  Created by cocoa on 15/9/4.
+//  Copyright (c) 2015年 cocoa. All rights reserved.
+//
+
+#ifndef TianMM_PrefixHeader_pch
+#define TianMM_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+    #import "CocoaLumberjack.h"
+    #import <MBProgressHUD.h>
+    #import <ReactiveCocoa/ReactiveCocoa.h>
+    #import "WebViewJavascriptBridge.h"
+    #import <AlipaySDK/AlipaySDK.h>
+    #import "MobClick.h"
+    #import "WXApi.h"
+    #import "Masonry.h"
+    #import <SDWebImage/UIImageView+WebCache.h>
+    #include "JDStatusBarNotification.h"
+
+    #import <AMapSearchKit/AMapSearchKit.h>
+    #import <AMapNaviKit/MAMapKit.h>
+    #import <AMapLocationKit/AMapLocationKit.h>
+
+    #import "iflyMSC/IFlySpeechSynthesizer.h"
+    #import "iflyMSC/IFlySpeechSynthesizerDelegate.h"
+    #import "iflyMSC/IFlySpeechConstant.h"
+    #import "iflyMSC/IFlySpeechUtility.h"
+    #import "iflyMSC/IFlySetting.h"
+
+    #import "PolyLineModel.h"
+    #import "BusPointAnnotation.h"
+    #import "CommonUtility.h"
+    #import "MAMapView+ZoomLevel.h"
+
+#endif
+
+#if __has_feature(objc_arc)
+//#import <ReactiveCocoa/ReactiveCocoa.h>
+#endif
+
+//static DDLogLevel ddLogLevel = DDLogLevelAll;
+static DDLogLevel ddLogLevel = DDLogLevelOff;
+
+#define STATUS_BAR_HEIGHT 20
+
+#define WEIXIN_PAY_RESULT   @"WEIXIN_PAY_RESULT"
+
+#define kScreen_Height [UIScreen mainScreen].bounds.size.height
+#define kScreen_Width [UIScreen mainScreen].bounds.size.width
+
+//#define UPDATE_URL   @"https://m.365tmm.com/index.php?r=admin/tmm_software/query&user=user&zip=zip&ios=ios"
+
+#define APPSTORE_UPDATE_URL    @"https://itunes.apple.com/lookup?id=1042164581"
+#define APPSTORE_URL    @"https://itunes.apple.com/cn/app/tian-mi-mi/id1042164581?mt=8"
+
+#define SHARE_DATA_URL    @"https://m.365tmm.com/index.php?r=api/farmOuter/share&url="
+
+
+#define APP_URL         @"https://m.365tmm.com/user"
+//#define APP_URL         @"http://test2.365tmm.net/user/"
+
+
+#define kTopViewHeight  60
+#define kButtomViewHeight   140
+
+const NSInteger RoutePlanningPaddingEdge                    = 40;
+
+#define APP_LOGIN_NAME     @"APP_LOGIN_NAME"
+
+#endif
